@@ -47,10 +47,8 @@ setup(
     ],
 
     install_requires=[
-        'torch',
         'strsim',
         'fuzzywuzzy[speedup]',
-        'pytorch-transformers==1.1.0',
         'scipy'
     ],
     tests_require=["pytest"],
