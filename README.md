@@ -1,3 +1,5 @@
+**ref to orginal https://github.com/AndriyMulyar/semantic-text-similarity, temporary fix to compitable pytorch-transformers > 1.2 for testing**
+
 # semantic-text-similarity
 an easy-to-use interface to fine-tuned BERT models for computing semantic similarity. that's it.
 
