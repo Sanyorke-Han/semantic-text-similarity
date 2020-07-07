@@ -24,7 +24,7 @@ class BertSimilarityRegressor(BertPreTrainedModel):
             nn.Linear(linear_size, 1)
         )
 
-        self.apply(self.init_weights)
+        self.init_weights()
 
 
     def forward(self, input_ids, token_type_ids, attention_masks, additional_features=None):
